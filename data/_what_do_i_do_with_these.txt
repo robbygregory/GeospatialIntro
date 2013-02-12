@@ -1,0 +1,3 @@
+These files can be imported into SQL Server using the Shape2Sql tool:
+It can be downloaded at:
+http://www.sharpgis.net/page/SQL-Server-2008-Spatial-Tools.aspx
