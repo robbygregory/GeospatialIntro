@@ -1,0 +1,23 @@
+﻿@model Web.Models.Map.DisplayViewModel
+
+@{
+	ViewBag.Title = "Display";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id="Buttons" class="btn-toolbar">
+  <div class="btn-group">
+    <a id="btnStates" class="btn btn-inverse" href="#"><i class="icon-pencil icon-white"></i>&nbsp;Draw States</a>
+    <a id="btnCities" class="btn btn-inverse" href="#">Plot Cities&nbsp;<i class="icon-map-marker icon-white"></i></a>
+  </div>
+</div>
+<div id="MapPanel">
+	<div id="Map"></div>
+	<div id="Properties" class="alert alert-info">
+		<table><tbody></tbody></table>
+	</div>
+</div>
+@section Scripts{
+	<script charset="UTF-8" type="text/javascript" src="https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&s=1"></script>
+	<script src="~/Scripts/GeoMap.js"></script>
+	<script src="~/Scripts/map.display.js"></script>
+}

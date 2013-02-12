@@ -1,0 +1,57 @@
+﻿body {
+}
+
+header {
+	background-image:url(images/gradient-green.png);
+	position: absolute;
+	height: 65px;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+header h3{
+	display: inline;
+	vertical-align: middle;
+}
+
+
+div#main {
+	position: absolute;
+	top: 65px;
+	left: 0;
+	right: 0;
+	bottom: 25px;
+}
+
+footer {
+	background-image:url(images/gradient-green.png);
+	position: absolute;
+	height: 25px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+div#MapPanel {
+	position: absolute;
+	top: 65px;
+	left: 0;
+	right: 0;
+	bottom: 25px;
+}
+
+div#Buttons {
+	z-index:100;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+
+div#Properties {
+	padding: 5px;
+	display: none;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
